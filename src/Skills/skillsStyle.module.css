@@ -1,0 +1,39 @@
+
+.skillsWrapper {
+    min-height: max-content;
+    background-color: #76eeae;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    box-sizing: border-box;
+}
+
+
+.containerSkills {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: grey;
+}
+
+.skills {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-height: 820px) {
+    .skillsWrapper{
+        padding: 20px 0 20px 0;
+    }
+}

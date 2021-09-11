@@ -1,0 +1,47 @@
+.skill {
+    display: flex;
+    /*border: 2px solid;*/
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    justify-content: space-around;
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+
+.skillIcon {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: chocolate;
+    transform: rotate(45deg);
+}
+
+.description {
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .skill {
+
+        padding-top: 5px;
+    }
+
+    .title {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill {
+        margin: 10px 0 0 0;
+        transition: 0.6s;
+    }
+}
+
